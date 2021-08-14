@@ -71,6 +71,21 @@ public class MainManager : MonoBehaviour
     public void GameOver()
     {
         m_GameOver = true;
+        GameManager.Instance.GameOver = true;
         GameOverText.SetActive(true);
+        if (m_Points > GameManager.Instance.HighScore)
+        {
+            if (GameManager.Instance.Name == "")
+            {
+                GameManager.Instance.HighName = "Blank";
+                GameManager.Instance.HighScore = m_Points;
+            }
+            else
+            {
+                GameManager.Instance.HighName = GameManager.Instance.Name;
+                GameManager.Instance.HighScore = m_Points;
+            }
+        }
+        GameManager.Instance.SaveGame();
     }
 }

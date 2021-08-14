@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -3.69}
+  m_AnchoredPosition: {x: 0, y: 22.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105232603
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 150894423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5146458638b42434a84ba98657b4d265, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ef9ccea5b0122a47ac2deaf0ab117a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 105232603}
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 609550705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f084fcd07d96bdd4f8eee27338735cac, type: 3}
+  m_Script: {fileID: 11500000, guid: 6dbd6a420549dd449a0565092bec09d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
@@ -768,7 +768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -35.9}
+  m_AnchoredPosition: {x: 0, y: -9.15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939934911
@@ -1123,7 +1123,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 21.28}
+  m_AnchoredPosition: {x: 0, y: 47.28}
   m_SizeDelta: {x: 160.02, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088806668
@@ -1283,7 +1283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.7, y: -91.9}
+  m_AnchoredPosition: {x: 45.7, y: -64.8}
   m_SizeDelta: {x: 68.25, y: 16.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376835697
@@ -1450,7 +1450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Save & Quit
 --- !u!222 &1837969621
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1511,7 +1511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 280c70a2b7bb760439178551951ec12e, type: 2}
+  - {fileID: 2100000, guid: c0222b945a985fb4fab4ed5500d1d16d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1591,7 +1591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -67.9}
+  m_AnchoredPosition: {x: 0, y: -41}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013162171
